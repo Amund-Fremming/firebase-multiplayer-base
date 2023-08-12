@@ -1,14 +1,15 @@
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, query, where, onSnapshot } from "firebase/firestore";
 
+// THIS NEEDS TO BE UPDATED FROM YOUR FIREBASE CONFIG FROM YOUR FIREBASE CONSOLE.
 const firebaseConfig = {
-  apiKey: "AIzaSyBguqju4b-K8s1CQLmhtMyELP2JBu0ibC0",
-  authDomain: "mayer-41a13.firebaseapp.com",
-  projectId: "mayer-41a13",
-  storageBucket: "mayer-41a13.appspot.com",
-  messagingSenderId: "942746629057",
-  appId: "1:942746629057:web:9162c49b535721b71cf540",
-  measurementId: "G-5YDTFXQ3CQ"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "AUTH_DOMAIN",
+  projectId: "PROJECT_ID",
+  storageBucket: "STORAGE_BUCKET",
+  messagingSenderId: "MESSAGING_SENDER_ID",
+  appId: "APP_ID",
+  measurementId: "MEASUREMENT_ID"
 };
 
 // Initialize Firebase

@@ -1,5 +1,5 @@
 {
-  "name": "firestore-crud-realtime",
+  "name": "firesbase-multiplayer-realtime",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
