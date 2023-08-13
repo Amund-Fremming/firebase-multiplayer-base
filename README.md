@@ -5,6 +5,7 @@
 - Needs a firebase project to link to firestore in the firebase.js file
 - Add your firebase config in firebase.js file
 
+
 ### How to use gitpush.sh
 list all commands
 ```
